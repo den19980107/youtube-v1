@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>youtube同時觀看</title>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js">
+  </script>
+  <link rel="stylesheet" href="./css/master.css">
+</head>
+
+<body>
+  <div id="ytplayer"></div>
+  <br>
+  <div class="playbar">
+    <div class="playpause">
+      <button class="btn" id="pause">暫停</button>
+      <button class="btn" id="play">播放</button>
+    </div>
+    <div class="timeline">
+      <input type="range" min="1" max="100" value="0" class="slider" id="myRange">
+    </div>
+  </div>
+  <script src="https://www.youtube.com/player_api">
+    //Youtube API
+  </script>
+
+  <script src="./js/main.js">
+  </script>
+</body>
+
+</html>

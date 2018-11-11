@@ -1,0 +1,21 @@
+.playbar {
+  width: 100%;
+}
+
+.playpause {
+  width: 20%;
+}
+
+.playpause button {
+  float: left;
+}
+
+.timeline {
+  display: inline-block;
+  width: 80%;
+}
+
+.timeline input {
+  float: left;
+  width: 100%;
+}
